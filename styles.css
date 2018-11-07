@@ -1,0 +1,32 @@
+nav {
+    border-bottom: 1px solid gray;
+}
+
+h2 {
+    color: #fff;
+}
+
+div.wrapper {
+    background-color: #000;
+    padding-bottom: 70px;
+    padding-top: 60px;
+}
+
+#output .row .wrapper img {
+    display: block;
+    width: 90%;
+    height: 80%;
+}
+
+#output .row .wrapper {
+    height: 550px;
+}
+
+@media screen and (max-width: 800px) {
+    #output .row .col-md-3 .wrapper {
+        height: 580px;
+    }
+}
+.alert{
+    display: none;
+}
